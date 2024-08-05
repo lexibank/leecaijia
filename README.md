@@ -1,10 +1,12 @@
 # CLDF dataset derived from Lee's "Phonological Features of Caijia" from 2022
 
+[![CLDF validation](https://github.com/lexibank/leecaijia/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/leecaijia/actions?query=workflow%3ACLDF-validation)
+
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspectiv. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
+  > Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -20,14 +22,15 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![CLDF validation](https://github.com/lexibank/leecaijia/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/leecaijia/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 1
-- **Concepts:** 234
+- **Varieties:** 1 (linked to 1 different Glottocodes)
+- **Concepts:** 234 (linked to 234 different Concepticon concept sets)
 - **Lexemes:** 238
 - **Sources:** 1
 - **Synonymy:** 1.02
@@ -43,7 +46,7 @@ Name | GitHub user | Description | Role |
 Uday Raj Aaley| |publication author, fieldwork | Author, RightsHolder, Distributor
 Timotheus A. Bodt| | publication author, fieldwork, orthography profile | Author, RightsHolder, Distributor
 Mei-Shin Wu | @macyl | patron, maintainer | Other
-Johann-Mattis List | @LinguList| orthography profile, maintainer | Other
+Johann-Mattis List | @LinguList| orthography profile, maintainer | Editor
 
 
 

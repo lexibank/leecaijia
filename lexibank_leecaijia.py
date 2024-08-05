@@ -17,6 +17,7 @@ class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "leecaijia"
     language_class = CustomLanguage
+    writer_options = dict(keep_languages=False, keep_parameters=False)
     form_spec = FormSpec(separators="~;,/", missing_data=["∅"], first_form_only=True)
 
     def cmd_makecldf(self, args):
