@@ -36,7 +36,7 @@
         },
         {
             "name": "Johann-Mattis List",
-            "type": "Other"
+            "type": "Editor"
         }
     ],
     "communities": [
@@ -45,7 +45,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspectiv. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }
