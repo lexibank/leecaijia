@@ -5,40 +5,8 @@
         "cldf:Wordlist",
         "linguistics"
     ],
-    "creators": [
-        {
-            "name": "Uday Raj Aaley"
-        },
-        {
-            "name": "Timotheus A. Bodt"
-        }
-    ],
-    "contributors": [
-        {
-            "name": "Uday Raj Aaley",
-            "type": "RightsHolder"
-        },
-        {
-            "name": "Uday Raj Aaley",
-            "type": "Distributor"
-        },
-        {
-            "name": "Timotheus A. Bodt",
-            "type": "RightsHolder"
-        },
-        {
-            "name": "Timotheus A. Bodt",
-            "type": "Distributor"
-        },
-        {
-            "name": "Mei-Shin Wu",
-            "type": "Other"
-        },
-        {
-            "name": "Johann-Mattis List",
-            "type": "Editor"
-        }
-    ],
+    "creators": [],
+    "contributors": [],
     "communities": [
         {
             "identifier": "lexibank"
