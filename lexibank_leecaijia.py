@@ -17,7 +17,8 @@ class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "leecaijia"
     language_class = CustomLanguage
-    form_spec = FormSpec(separators="~;,/", missing_data=["∅"], first_form_only=True)
+    form_spec = FormSpec(separators="~;,/", missing_data=["∅"],
+                         first_form_only=True)
 
     def cmd_makecldf(self, args):
         # add bib
@@ -26,7 +27,10 @@ class Dataset(BaseDataset):
 
         corrections = {
                 "tsh": "tsʰ",
-                "tɕh": "tɕʰ"
+                "tɕh": "tɕʰ",
+                "kh": "kʰ",
+                "th": "tʰ",
+                "ph": "pʰ",
                 }
 
         # add concept
@@ -54,6 +58,13 @@ class Dataset(BaseDataset):
         data = self.raw_dir.read_csv(
                 "data.tsv", 
                 delimiter="\t", dicts=True)
+        # extend corrections
+        for i, row in enumerate(data):
+            form = row["Caijia (segments  separated)"]
+            for s, t in zip("12345", "¹²³⁴⁵"):
+                form = form.replace(s, t)
+            row["Segments"] = [corrections.get(c, c) for c in form.split()]
+
         # add data
         for entry in pb(data, desc="cldfify", total=len(data)):
             if entry["Id"].strip():
@@ -64,10 +75,7 @@ class Dataset(BaseDataset):
                         Parameter_ID=concepts[cid],
                         Value=entry["Caijia"],
                         Form=entry["Caijia"],
-                        Segments=[
-                            corrections.get(
-                                c, c) for c in entry[
-                                    "Caijia (segments  separated)"].split()],
+                        Segments=entry["Segments"],
                         Source="Lee2022"
                         )
 
