@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/leecaijia",
             "rdf:type": "prov:Entity",
-            "dc:created": "ea7d751",
+            "dc:created": "v1.0-5-g2c1e89e",
             "dc:title": "Repository"
         },
         {
@@ -33,7 +33,7 @@
             "dc:title": "Concepticon"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
             "dc:created": "v2.3.0",
             "dc:title": "CLTS"
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.13.2"
+            "dc:description": "3.13.3"
         },
         {
             "dc:title": "python-packages",
