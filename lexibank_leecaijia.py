@@ -3,22 +3,12 @@ import attr
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
-from pylexibank import Language
 from pylexibank import FormSpec
-
-
-@attr.s
-class CustomLanguage(Language):
-    Location = attr.ib(default=None)
-    Remark = attr.ib(default=None)
 
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "leecaijia"
-    language_class = CustomLanguage
-    form_spec = FormSpec(separators="~;,/", missing_data=["∅"],
-                         first_form_only=True)
     writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_makecldf(self, args):
@@ -67,7 +57,7 @@ class Dataset(BaseDataset):
             row["Segments"] = [corrections.get(c, c) for c in form.split()]
 
         # add data
-        for entry in pb(data, desc="cldfify", total=len(data)):
+        for entry in data:
             if entry["Id"].strip():
                 cid = entry["Id"]
             if entry["Caijia"].strip() != "/":

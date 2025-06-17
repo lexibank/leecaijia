@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/leecaijia",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-5-g2c1e89e",
+            "dc:created": "v1.0-6-g292fd58",
             "dc:title": "Repository"
         },
         {
@@ -218,14 +218,6 @@
                     {
                         "datatype": "string",
                         "name": "Family"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Location"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Remark"
                     }
                 ],
                 "primaryKey": [
