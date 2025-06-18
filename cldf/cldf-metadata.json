@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/leecaijia",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-7-g8004298",
+            "dc:created": "v1.0-8-gf455bd4",
             "dc:title": "Repository"
         },
         {
@@ -228,7 +228,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 250,
+            "dc:extent": 234,
             "tableSchema": {
                 "columns": [
                     {
