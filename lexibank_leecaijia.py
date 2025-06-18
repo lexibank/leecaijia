@@ -9,7 +9,6 @@ from pylexibank import FormSpec
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "leecaijia"
-    writer_options = dict(keep_languages=False, keep_parameters=False)
 
     def cmd_makecldf(self, args):
         # add bib
