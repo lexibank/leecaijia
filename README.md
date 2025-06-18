@@ -1,4 +1,4 @@
-# CLDF dataset derived from Lee's "Phonological Features of Caijia" from 2022
+# CLDF dataset derived from Lee's "Phonological Features of Caijia" from 2023
 
 [![CLDF validation](https://github.com/lexibank/leecaijia/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/leecaijia/actions?query=workflow%3ACLDF-validation)
 
@@ -6,7 +6,7 @@
 
 If you use these data please cite
 - the original source
-  > Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
+  > Lee, Man Hei (2023): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description

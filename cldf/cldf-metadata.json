@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee",
+    "dc:bibliographicCitation": "Lee, Man Hei (2023): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Sagart-2019-250"
@@ -11,13 +11,13 @@
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived from Lee's \"Phonological Features of Caijia\" from 2022",
+    "dc:title": "CLDF dataset derived from Lee's \"Phonological Features of Caijia\" from 2023",
     "dcat:accessURL": "https://github.com/lexibank/leecaijia",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/lexibank/leecaijia",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0-8-gf455bd4",
+            "dc:created": "v1.0-9-gbec4dc5",
             "dc:title": "Repository"
         },
         {

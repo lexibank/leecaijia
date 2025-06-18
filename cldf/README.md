@@ -1,6 +1,6 @@
 <a name="ds-cldfmetadatajson"> </a>
 
-# Wordlist CLDF dataset derived from Lee's "Phonological Features of Caijia" from 2022
+# Wordlist CLDF dataset derived from Lee's "Phonological Features of Caijia" from 2023
 
 **CLDF Metadata**: [cldf-metadata.json](./cldf-metadata.json)
 
@@ -8,13 +8,13 @@
 
 property | value
  --- | ---
-[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Lee, Man Hei (2022): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
+[dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Lee, Man Hei (2023): Phonological features of Caijia that are notable from a diachronic perspective. Journal of Historical Linguistics. DOI: https://doi.org/10.1075/jhl.21025.lee
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF Wordlist](http://cldf.clld.org/v1.0/terms.rdf#Wordlist)
 [dc:format](http://purl.org/dc/terms/format) | <ol><li>http://concepticon.clld.org/contributions/Sagart-2019-250</li></ol>
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://doi.org/10.5281/zenodo.5544225
 [dc:license](http://purl.org/dc/terms/license) | https://creativecommons.org/licenses/by/4.0/
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/lexibank/leecaijia
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/leecaijia/tree/f455bd4">lexibank/leecaijia v1.0-8-gf455bd4</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.2.1">Glottolog v5.2.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.4.0">Concepticon v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/v2.3.0">CLTS v2.3.0</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/lexibank/leecaijia/tree/bec4dc5">lexibank/leecaijia v1.0-9-gbec4dc5</a></li><li><a href="git@github.com:glottolog/glottolog/tree/v5.2.1">Glottolog v5.2.1</a></li><li><a href="git@github.com:concepticon/concepticon-data/tree/v3.4.0">Concepticon v3.4.0</a></li><li><a href="https://github.com/cldf-clts/clts//tree/v2.3.0">CLTS v2.3.0</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>lingpy-rcParams</strong>: <a href="./lingpy-rcParams.json">lingpy-rcParams.json</a></li><li><strong>python</strong>: 3.13.2</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | leecaijia
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
